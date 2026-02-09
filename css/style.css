@@ -1,0 +1,99 @@
+html body {
+  background: linear-gradient(to bottom, #03f7eb, #1daaa3);
+  /* min-height: 100ch; */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+}
+
+.form {
+  width: 500px;
+  height: 950px;
+  background-color: #fff3e6;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+legend {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fc5e58;
+}
+
+.top {
+  padding: 10px 20px;
+  background-color: #1daaa3;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+}
+
+.fieldset {
+  margin: 15px;
+  border-radius: 20px;
+}
+
+.row {
+  margin-top: 10px;
+}
+
+.row label,
+select {
+  display: inline-block;
+  width: 100px;
+}
+
+::placeholder {
+  color: #999;
+  opacity: 0.6;
+}
+.form_input .form_select {
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.textarea {
+  border-radius: 5px;
+  width: 435px;
+  height: 200px;
+}
+
+.accept {
+  padding-left: 25px;
+  margin-top: 30px;
+}
+
+.buttons {
+  display: block;
+  text-align: center;
+  margin: 50px;
+}
+
+button {
+  padding: 10px 50px;
+  background: #ff8984;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:last-child {
+  margin-left: 20px;
+}
+
+button:hover {
+  background: #ff6b65;
+}
+
+h3 {
+  text-align: center;
+  font-size: 15px;
+  color: rgb(179, 168, 168);
+  font-weight: normal;
+}

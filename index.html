@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <h1>Form</h1>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <form action="#" method="get" class="form">
+                    <div class="top">
+                        <h2>Submit the form</h2>
+                    </div>
+                    <fieldset class="fieldset">
+                        <legend>Contacts</legend>
+                        <div class="row">
+                            <label for="first">First name: *</label>
+                            <input type="text" id="first" class="form_input" required placeholder="Enter First name">
+                        </div>
+                        <div class="row">
+                            <label for="lost">Last name: *</label>
+                            <input type="text" id="lost" class="form_input" required placeholder="Enter Last name">
+                        </div>
+                        <div class="row">
+                            <label for="mail">E-mail: *</label>
+                            <input type="email" id="mail" name="mail 
+                                class="form_input" required placeholder="Enter mail address">
+                        </div>
+                        <div class="row">
+                            <label for="phone">Phone:</label>
+                            <input type="tel" id="phone" class="form_input" placeholder="+380(00)00-00-000">
+                        </div>
+                        <div class="row">
+                            <ladel for="city">City</label>
+                            <select name="city" class="form_select">
+                                <option vaue selected disabled>Your
+                                    city</option>
+                                <option vaue="dpn">Dnipro</option>
+                                <option vaue="kyi">Kiyv</option>
+                                <option vaue="khr">Kharkiv</option>
+                                <option vaue="lviv">Lviv</option>
+                                <option vaue="zp">Zaporizhia</option>
+                            </select>
+                        </div>
+                    </fieldset>
+                    <fieldset class="fieldset">
+                        <legend>Your gender</legend>
+                        <label for="Male"></label>Male
+                        <input type="radio" name="gender">
+                        <label for="female"></label>Female
+                        <input type="radio" name="gender">
+                    </fieldset>
+                    <fieldset class="fieldset">
+                        <legend>Age</legend>
+                        <div class="row">
+                            <label for="age">Your age:</label>
+                            <input type="text" name="age" placeholder="Enter you age">
+                        </div>
+                    </fieldset>
+                    <fieldset class="fieldset">
+                        <legend>Tell about yourself </legend>
+                        <textarea name="adout" class="textarea"></textarea>
+                    </fieldset>
+                    <div class="accept">
+                        <input type="checkbox" required>
+                        <span>I agree to the processing of personal data</span><br>
+                        <input type="checkbox" required>
+                        <span>The form has been filled out correctly</span>
+                    </div>
+                    <div class="buttons">
+                        <button type="reset">Reset form</button>
+                        <button type="submit">Submit</button>
+                    </div>
+                    <h3>Made in Ukraine</h3>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>
